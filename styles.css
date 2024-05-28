@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'inter' , sans-serif;
+}
+
+.slider{
+    width:100%;
+    height:80vh;
+    aspect-ratio:16/9;
+    background-color: black;
+    position: relative;
+}
+
+.slider-background{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    filter:brightness(70%)
+}
+
+.slider-content{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    text-align:center;
+}
+
+.slider-content h1{
+    font-size:5rem;
+}
+.reflechi {
+    display: flex;
+
+}
+.section h2{
+    
+    font-size:3rem;
+}
+
+p{
+    font-size:1.5rem;
+    line-height:1.5em;
+}
+
+.slider-content p{
+    font-size:2rem;
+    font-weight:300;
+}
+
+section{
+    padding: 100px 0;
+    width:40%;
+    width:60%;
+    max-width:1280px;
+    margin-inline:auto;
+    max-width:1280px;
+    margin-inline:auto;
+    display:flex;
+}
+
+section .h2{
+    color: red;
+    background-color: red;
+}
+
+
+.discover{
+    text-align:center;
+}
+
+.section-txt .boxed{
+    width:100%;
+    height:auto;
+    background-size:auto;
+    background-color: rgb(0, 0, 0);
+    text-align:center;
+    box-shadow: #fff;
+
+}
+
+.section-dark{
+    padding-top:100px;
+}
+
+.propos{
+    padding-top:20px;
+    display:flex;
+}
+
+.propos .propos-title{
+    margin: 80px;
+    font-size:2rem;
+}
+
+.propos .propos-txt{
+    margin:80px;
+}
+.boxed{
+    color:white;
+    background-color:black;
+    text-align:center;
+    padding:20px;
+}
+
+.boxed .h2{
+    color:red;
+}
+
+.section .dark{
+    background-color: black;
+}
+
+
+.containerlog{
+    display:flex;
+    margin: 50px;
+    align-items:center;
+}
+
+
+.realisation{
+    margin-top: 100px;;
+    height:auto;
+    position:relative;
+}
+
+.realisation h3{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    font-size:5rem;
+}
+
+.label{
+    display:block;
+    margin:10px;
+    font-size:1.5em;
+}
+
+.value{
+    display:block;
+    font-size:1.2em;
+}
+
+.contact{
+    border:2px dashed white;
+}
+
+.icone{
+    border:2px dashed white;
+}
